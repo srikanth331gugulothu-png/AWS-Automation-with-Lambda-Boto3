@@ -4,12 +4,12 @@
     {
       "Effect": "Allow",
       "Action": "s3:ListBucket",
-      "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME"
+      "Resource": "arn:aws:s3:::srikanth-s3-cleanup-demo"
     },
     {
       "Effect": "Allow",
       "Action": "s3:DeleteObject",
-      "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
+      "Resource": "arn:aws:s3:::srikanth-s3-cleanup-demo/*"
     }
   ]
 }
