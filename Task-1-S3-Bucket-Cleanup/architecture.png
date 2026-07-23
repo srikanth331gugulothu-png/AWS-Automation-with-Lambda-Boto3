@@ -1,0 +1,38 @@
+              ◯ Trigger
+        (Manual / EventBridge)
+                 │
+                 ▼
+      ┌────────────────────┐
+      │   AWS Lambda       │
+      │ Python 3.12+Boto3  │
+      └────────────────────┘
+                 │
+                 ▼
+      ┌────────────────────┐
+      │ Amazon S3 Bucket   │
+      │ Root + Subfolders  │
+      └────────────────────┘
+                 │
+                 ▼
+      ┌────────────────────┐
+      │ Scan All Objects   │
+      │ (Paginator)        │
+      └────────────────────┘
+                 │
+                 ▼
+            ◇ Age Check ◇
+          (LastModified)
+          /             \
+         /               \
+       Yes               No
+        │                 │
+        ▼                 ▼
+┌────────────────┐  ┌────────────────┐
+│ Delete Object  │  │ Keep Object    │
+└────────────────┘  └────────────────┘
+         │
+         ▼
+┌────────────────────┐
+│ CloudWatch Logs    │
+│ Execution Details  │
+└────────────────────┘
