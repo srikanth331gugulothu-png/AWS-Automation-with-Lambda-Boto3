@@ -212,10 +212,6 @@ These projects demonstrate practical experience with:
 
 **Srikanth Gugulothu**
 
-GitHub: https://github.com/srikanth331gugulothu-png
+[GitHub: https://github.com/srikanth331gugulothu-png](https://github.com/srikanth331gugulothu-png/AWS-Automation-with-Lambda-Boto3)
 
 ---
-
-## License
-
-This project is for learning and educational purposes.
