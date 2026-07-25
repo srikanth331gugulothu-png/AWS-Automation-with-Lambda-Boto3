@@ -4,9 +4,9 @@ from datetime import datetime
 ec2 = boto3.client("ec2")
 
 # Change these values
-VOLUME_ID = "vol-xxxxxxxx"
-SUBNET_ID = "subnet-xxxxxxxx"
-SECURITY_GROUP = "sg-xxxxxxxx"
+VOLUME_ID = "vol-0a764c6e9f5c2981f"
+SUBNET_ID = "subnet-0e002f0a3ff6f9112"
+SECURITY_GROUP = "sg-09a958cf2d9acdfaf"
 
 def lambda_handler(event, context):
 
