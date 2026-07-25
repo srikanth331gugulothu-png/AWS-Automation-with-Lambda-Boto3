@@ -212,6 +212,6 @@ These projects demonstrate practical experience with:
 
 **Srikanth Gugulothu**
 
-[GitHub: https://github.com/srikanth331gugulothu-png](https://github.com/srikanth331gugulothu-png/AWS-Automation-with-Lambda-Boto3)
+https://github.com/srikanth331gugulothu-png/AWS-Automation-with-Lambda-Boto3
 
 ---
